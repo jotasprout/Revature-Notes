@@ -1,23 +1,22 @@
 
 ## BASH
-Bash - Bourne Again Shell
-Bash is one of the default shells (Terminal in Linux Terms) for Unix based OS's
-Git bash is an _Emulator_ for bash
+Bash - Bourne Again SHell
+Git Bash is an _Emulator_ for bash
 
 ## Terminal Commands
-- ls: LiSt contents of a folder
+- ls: list contents of folder
 - cd: Change Directory
-- ~ is a shorthand for a home directory
+- ~ home directory
 - / is the root directory
-- . stands for the current directory
-- .. stands for the parent directory
-- mkdir: MaKe DIRectory
-- touch: creates a new file
-- nano: command line text editor, use this to modify existing text files and create new text files.
-- rm: ReMoves a file or an entire folder (or a file tree)
-- cat: to conCATenate content of a text file to the console (IE, printing a file's content to screen)
-- mv: to MoVe files mv oldfile newfileLocation/filename.extension
-- cp: CoPy
+- . current directory
+- .. the parent directory
+- mkdir: create directory
+- touch: create a new file
+- nano: create and/or edit text files.
+- rm: Delete a file or an entire folder (or a file tree)
+- cat: read a file without opening it
+- mv: move a files mv oldfile newfileLocation/filename.extension
+- cp: copy
 
 ### Flag/Option
 Flag, or option, is an optional parameter you can pass in with the command to provide additional information or trigger alternate behavior. For example, use rm with -r flag to delete folders!

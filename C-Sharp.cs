@@ -1,14 +1,12 @@
 Console.WriteLine("Hello, World!");
 Console.WriteLine("What's your name?");
-
 string name = Console.ReadLine();
+Console.WriteLine("Hello " + name + "!");
 
 // PascalCaseGoesLikeThis
 // camelCaseGoesLikeThis
-// These are comments, you create comments in C# by prefacing the line
-// with two slashes. These lines, do not get interpreted by compiler
-// Which is super useful to leave any notes for your future self and your teammates
-Console.WriteLine("Hello " + name + "!");
+
+
 
 //Different Operators
 // = : assignment operator
@@ -31,7 +29,7 @@ Console.WriteLine(6 % 4); //result: 2
 Console.WriteLine(2 == 5); //false
 Console.WriteLine(3 == 3); //true
 
-//Truth table
+// Truth table
 // && AND
 Console.WriteLine(true && true); // true;
 Console.WriteLine(false && true); //false

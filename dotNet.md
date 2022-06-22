@@ -1,4 +1,4 @@
-## .NET Commands
+# .NET Commands
 - To create a new console application, `dotnet new console -n appName`
 - `dotnet run` to run your program
     - dotnet run actually runs dotnet build under the hood -> dotnet build && dotnet run
