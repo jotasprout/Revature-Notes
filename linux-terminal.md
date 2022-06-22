@@ -1,4 +1,5 @@
 
+## BASH
 Bash - Bourne Again Shell
 Bash is one of the default shells (Terminal in Linux Terms) for Unix based OS's
 Git bash is an _Emulator_ for bash
