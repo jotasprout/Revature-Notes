@@ -1,0 +1,17 @@
+
+
+FROM docker pull mcr.microsoft.com/dotnet/framework/sdk
+
+WORKDIR /the/WORKDIR/path
+
+WORKDIR /app
+
+# Copies whole folder minus dockerignored files/folders in local machine to working directory to our image (just takes our source code)
+COPY . .
+
+# For run any commands you would in Terminal
+RUN dotnet clean POkeStorageSystem.sln
+
+# builds it and puts it in its own folder as it's own deployable artifact
+# -o takes everything in open folder and puts it in "publish" folder using "Release" configuration
+RUN dotnet publish WebAPI --configuration Release -o ./publish

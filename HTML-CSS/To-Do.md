@@ -1,0 +1,1 @@
+This is the perfect place to compare contrast how styles are written and what they're called when they're inline versus in external file.
